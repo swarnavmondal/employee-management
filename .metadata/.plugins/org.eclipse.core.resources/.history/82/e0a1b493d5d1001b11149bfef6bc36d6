@@ -1,0 +1,3 @@
+
+spring.datasource.url= jdbc:mysql://localhost:3306/fullproject_employee_management_system
+spring.datasource.username=root

@@ -1,0 +1,30 @@
+@server = http://localhost:8080
+
+### Create a Single EMP
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{
+    "firstName": "..",
+    "lastName": "..",
+    "emailId": ".."
+}
+
+### View All EMP
+GET {{server}}/api/employees
+
+### View Single EMP
+GET {{server}}/api/employees/:id
+
+### Update Single EMP
+PUT {{server}}/api/employees/:id
+Content-Type: application/json
+
+{
+    "firstName": "..",
+    "lastName": "..",
+    "emailId": ".."
+}
+
+### Delete Single EMP
+DELETE {{server}}/api/employees/:id
