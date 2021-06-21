@@ -18,13 +18,13 @@ step 6: after successfully create all, run  Spring-boot, it will directly fetch 
 Step 7: take a note for the spring-boot local-server where we will get the database details later.
 step 8 : You can access the Methods like GET, PUT, DELETE and create database in POSTMAN application by providing the http_url
           
-         step 1: To create database put the url- http://localhost:8080//api/amployees and use POST method. and set the body structure as JSON 
+         step 1: To create database put the url- http://localhost:8080/api/amployees and use POST method. and set the body structure as JSON 
                  and insert the body as same format only.
-         step2: To View the DB put the url-http http://localhost:8080//api/amployees  use GET method
-         step3: To View the single_Employee put the url-http http://localhost:8080//api/amployees/:id  use GET method 
-         step3: To Update the single_Employee put the url-http http://localhost:8080//api/amployees/:id use PUT method set the body structure as JSON 
+         step2: To View the DB put the url-http http://localhost:8080/api/amployees  use GET method
+         step3: To View the single_Employee put the url-http http://localhost:8080/api/amployees/:id  use GET method 
+         step3: To Update the single_Employee put the url-http http://localhost:8080/api/amployees/:id use PUT method set the body structure as JSON 
                  and insert the body as same format only.
-         step4: To Delete the single_Employee put the url-http http://localhost:8080//api/amployees/:id use DELETE method.
+         step4: To Delete the single_Employee put the url-http http://localhost:8080/api/amployees/:id use DELETE method.
          
          
     ***** After successfully create the Backend , moving forward with Frontend part below:
