@@ -32,7 +32,7 @@ step 8 : You can access the Methods like GET, PUT, DELETE and create database in
 step 1: create a react app by using npm create-react-app {APP_Name}
 step 2: install required dependencies accordingly.
 step 3: create necessary folder structure to build UI.
-step 4: use Axios and set url: http://localhost:8080//api/employees to fetch data of DB.
+step 4: use Axios and set url: http://localhost:8080/api/employees to fetch data of DB.
 step 5: ADD css according suitable design, use bootstrap for betterment.
 step 6: create API_url for individual functions.
 step 7: run the react APP by npm start. 
